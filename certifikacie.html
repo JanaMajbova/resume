@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+    <title>Jana Majbová</title>
+
+    <meta name="description" content="Jana Majbová Resume">
+
+    <meta name="keywords" content="CV, resume, vzdelanie, práca, zručnosti">
+
+    <meta name="author" content="Jana Majbová">
+
+    <meta name="robots" content="INDEX,FOLLOW"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<script src="https://kit.fontawesome.com/db031f819c.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="resume.css">
+
+    <style type="text/css">
+
+		
+	i {
+	
+		padding-right: 20px;
+        
+    }
+
+	#omne {
+	
+		margin: 0 auto;
+		margin-top: 200px;
+		padding: 30px;
+		width: 50%;
+		height: 70%;
+		background-color: white;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	
+	}
+
+	#omnetext {
+
+		margin-left: auto;
+		margin-right: auto;
+		/*height: 300px;
+		width: 650px;*/
+		text-align: center;
+		color: #5a5a5a;
+		line-height: 1.5;
+        margin-top: 150px;
+
+	}
+
+    #wrenchicon {
+
+        font-size: 100px;
+        color: teal;
+		text-align: center;
+		margin-bottom: 40px;
+        margin-top: 40px;
+        
+
+    }
+
+	h2 {
+
+		font-weight: 100;
+
+	}
+
+    h1 {
+
+        text-align: center;
+
+    }
+
+     @media screen and (max-width: 1200px) {
+    
+    
+        #menu {
+
+width: auto;
+position: relative;
+top: 0;
+left: 0;
+
+}
+
+#hamburger {
+
+float: right;
+display: block;
+padding-right: 20px;
+font-size: 40px;
+
+}
+
+#cross {
+
+float: right;
+padding-right: 30px;
+font-size: 30px;
+font-weight: 900;
+display: none;
+
+}
+
+#menu a {
+
+color: white;
+text-decoration: none;
+font-size:50px;
+padding: 30px;
+float: none;
+
+}
+
+ul {
+
+list-style-type: none;
+color: white;
+
+}
+
+#hamburger-menu {
+
+background-color: black;
+font-size: 40px;
+color: white;
+list-style-type: none;
+padding: 15px 0px;
+margin-top: 0;
+
+}
+
+#hamburger-menu li {
+
+color: white;
+padding-left: 40px;
+
+}
+
+#toggle-menu {
+
+display: none;
+
+}
+
+#toggle-menu {
+
+padding-left: 40px;
+
+}
+
+#toggle-menu i {
+
+padding-right: 30px;
+padding-left: 0px;
+font-size: 20px;
+
+}
+
+#toggle-menu a {
+
+font-size: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 0px;
+
+}
+
+        #maincontent {
+
+            width: 100%;
+            display: block;
+
+        }
+
+
+        #omne {
+
+            margin: 0 auto;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            width: 70%;
+            display: block;
+
+        }
+
+        #omnetext {
+
+            font-size: 35px;
+
+        }
+
+        #personal_photo{
+
+            width:200px;
+            height:200px;
+
+
+        }
+
+        h2 {
+
+            font-size:50px;
+
+        }
+
+    }
+
+    </style>    
+
+
+</head>
+
+<body>
+
+
+		<div id="menu">
+
+            <ul id="hamburger-menu">
+
+                <li><span>MENU</span><span id="hamburger"><i class="fa fa-fw fa-bars"></i></span><span id="cross">&#9587;</span>
+                
+            </li>
+            
+            </ul>
+
+            <ul id="toggle-menu">
+
+                <li><a href="index.html"><i class="fa fa-fw fa-home"></i>O mne</a></li>
+                    
+                <li><a href="vzdelanie.html"><i class="fa fa-fw fa-graduation-cap"></i>Vzdelanie</a></li>
+                    
+                <li><a href="skusenosti.html"><i class="fa fa-fw fa-briefcase"></i>Pracovné skúsenosti</a></li>
+                    
+                <li><a href="zrucnosti.html"><i class="fa fa-fw fa-laptop"></i>Zručnosti</a></li>
+                    
+                <li><a href="certifikacie.html"><i class="fa fa-fw fa-certificate"></i>Certifikácie</a></li>
+                    
+                <li><a href="kontakt.html"><i class="fa fa-fw fa-envelope"></i>Kontakt</a></li>
+
+                <li><a href="bbc_mini_clone/bbc_mini_clone.html"><i class="fa fa-fw fa-code"></i>Projekt Mini BBC klon deskop</a></li>
+
+                <li><a href="menu/pizza_project.html"><i class="fa fa-fw fa-code"></i>Projekt Menu</a></li>
+
+                <li><a href="wordgenerator/wordgenerator.html"><i class="fa fa-fw fa-code"></i>Generátor náhodných slov</a></li>
+
+            </ul>
+
+		</div>
+		
+
+		<div id="maincontent">
+
+			<div id="omne">
+
+                    <p id="wrenchicon"><i class="fa fa-fw fa-wrench"></i></p>
+
+
+					<h1>Na stránke usilovne pracujem.</h1>
+
+			</div>
+
+
+		</div>
+		
+
+        <script type="text/javascript">
+
+            document.getElementById("hamburger").onclick = function() {
+
+                 document.getElementById("toggle-menu").style.display = "block";
+
+                 document.getElementById("hamburger").style.display = "none";
+
+                 document.getElementById("cross").style.display = "block";
+
+            }
+
+            document.getElementById("cross").onclick = function() {
+
+                 document.getElementById("toggle-menu").style.display = "none";
+
+                 document.getElementById("hamburger").style.display = "block";
+
+                 document.getElementById("cross").style.display = "none";
+
+            }
+
+
+</script>   
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+		background-image: linear-gradient(to right, rgba(169,169,169,0), rgba(169,169,169,1));;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu {
+	
+		height: 100%;
+		width:20%;
+		background-color: black ;
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+    }
+
+    #menu li {
+
+        list-style-type: none;
+
+    }
+	
+	#menu a {
+	
+		display: block;
+		color: white;
+		text-decoration: none;
+		font-size: 18px;
+        padding: 20px 0px;
+        list-style-type: none;
+        
+    }
+
+    #toggle-menu a {
+	
+		padding-right: 40px;
+        
+    }
+
+    #toggle-menu i {
+	
+		padding-right: 40px;
+        
+    }
+	
+	#menu a:hover {
+	
+		color: teal;
+		
+	}
+
+	a:hover {
+
+		color: teal;
+		
+	}
+
+    #maincontent {
+
+        float: right;
+        width: 80%;
+
+    }
+
+    #hamburger {
+
+        display: none;
+
+    }
+
+    #cross {
+
+        display: none;
+
+    }
+
+    
